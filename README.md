@@ -26,6 +26,12 @@ La primera causa es el exceso de imagenes de alta calidad, los banners y element
 Otra causa son las librerias externas que puede que ni siquiera el usuario haga uso de ellas, todo se carga desde el inicio.
 Por ultimo esta el elevado numero de peticiones HTTP externas, las cookies y servivios externos sobrecargan la pagina.
 
+## Fase 2: Dimensión Social y Equidad (S)
+
+### Test de Accesibilidad. Pasa una herramienta como WAVE Web Accessibility Evaluation Tool o el propio Lighthouse (pestaña Accessibility).
+
+
+
   
 
 
