@@ -26,7 +26,7 @@ Por ultimo esta el elevado numero de peticiones HTTP externas, las cookies y ser
 
 ## Fase 2: Dimensión Social y Equidad (S)
 
-### Test de Accesibilidad. Pasa una herramienta como WAVE Web Accessibility Evaluation Tool o el propio Lighthouse (pestaña Accessibility).
+### 1. Test de Accesibilidad. Pasa una herramienta como WAVE Web Accessibility Evaluation Tool o el propio Lighthouse (pestaña Accessibility).
 
 <img width="528" height="497" alt="image" src="https://github.com/user-attachments/assets/c2ee0a44-ef8e-46f9-beb6-fa16ee2762ea" />
 
@@ -35,6 +35,7 @@ Por ultimo esta el elevado numero de peticiones HTTP externas, las cookies y ser
 -  La navegacion por la web podria resultar ser molesta o compleja para algunos usuarios con movilidad reducida, una opcion seria redistribuir algunas opciones como donde colocar el carrito de compra.
 
 
+### 2. Identificación de barreras. Documenta al menos 2 problemas graves que impidan a personas con diversidad funcional usar la web correctamente (ej. falta de atributos alt en imágenes clave, bajo contraste de colores en botones, formularios sin etiquetas).
 
 
 
