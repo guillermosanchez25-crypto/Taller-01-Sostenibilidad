@@ -18,6 +18,14 @@
 
 - Recursos de terceros: Usa Google Fonts, iconos externos y CDN multiples, esto aumenta la latencia, el consumo energeticvo y ralentiza la web.
 
+### 3. Análisis. ¿Crees que la web sufre de "inflación de software"? Justifica tu respuesta.
+
+La web si presenta inflacion de software porque utiliza demasiados recursos para algo que no deja de ser una pagina que vende libros y deberia de ser una web simple ya que solo es un catalogo electronico.
+
+La primera causa es el exceso de imagenes de alta calidad, los banners y elementos graficos tambien cuentan, esto provoca descargas pesadas e innecesarias 
+Otra causa son las librerias externas que puede que ni siquiera el usuario haga uso de ellas, todo se carga desde el inicio.
+Por ultimo esta el elevado numero de peticiones HTTP externas, las cookies y servivios externos sobrecargan la pagina.
+
   
 
 
