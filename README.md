@@ -39,6 +39,12 @@ Por ultimo esta el elevado numero de peticiones HTTP externas, las cookies y ser
 -  La navegacion por la web podria resultar ser molesta o compleja para algunos usuarios con movilidad reducida, una opcion seria redistribuir algunas opciones como donde colocar el carrito de compra.
 
 
+## Fase 3: Dimensión de Gobernanza y Ética (G)
+
+### 1. Transparencia. ¿Es fácil rechazar las cookies no esenciales o utilizan "patrones oscuros" (Dark Patterns) para forzar al usuario a aceptarlas?
+
+
+
   
 
 
