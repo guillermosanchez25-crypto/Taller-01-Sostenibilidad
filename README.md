@@ -12,6 +12,12 @@
 
 ### 2. Identificación de Bloatware. Inspecciona la red (Network) en las herramientas de desarrollador del navegador. Identifica los 3 recursos más pesados que se descargan al abrir la web (imágenes sin comprimir, vídeos de fondo, librerías JavaScript pesadas, etc.).
 
+- Imagenes de banners y productos con alta resolucion: Esto incrementa la transferencia de datos, el uso de CPU  y el consumo energetico pues la web tarda mas en cargar las imagenes, esto aumenta la huella de carbono y hace la experiencia para dispositivos moviles mas lenta.
+
+- Librerias externas: La web usa multiples funcionalidades externas como cookies, sliders, analiticaas y mas, Esto provoca cargar scripts externos que no tienen por que ser necesarios y plugins de marketing que molestan.
+
+- Recursos de terceros: Usa Google Fonts, iconos externos y CDN multiples, esto aumenta la latencia, el consumo energeticvo y ralentiza la web.
+
   
 
 
