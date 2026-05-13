@@ -10,6 +10,8 @@
 
 <img width="1092" height="733" alt="image" src="https://github.com/user-attachments/assets/7c5f968d-292a-4ccb-a822-a38ae12e1602" />
 
+### 2. Identificación de Bloatware. Inspecciona la red (Network) en las herramientas de desarrollador del navegador. Identifica los 3 recursos más pesados que se descargan al abrir la web (imágenes sin comprimir, vídeos de fondo, librerías JavaScript pesadas, etc.).
+
   
 
 
