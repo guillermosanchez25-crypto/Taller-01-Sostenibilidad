@@ -30,14 +30,13 @@ Por ultimo esta el elevado numero de peticiones HTTP externas, las cookies y ser
 
 <img width="528" height="497" alt="image" src="https://github.com/user-attachments/assets/c2ee0a44-ef8e-46f9-beb6-fa16ee2762ea" />
 
--  La web no es accesible para usuarios discapacitados como los ciegos o usuarios de baja vision, una opcion seria implementar atributos descriptivos de la web.
-
--  La navegacion por la web podria resultar ser molesta o compleja para algunos usuarios con movilidad reducida, una opcion seria redistribuir algunas opciones como donde colocar el carrito de compra.
 
 
 ### 2. Identificación de barreras. Documenta al menos 2 problemas graves que impidan a personas con diversidad funcional usar la web correctamente (ej. falta de atributos alt en imágenes clave, bajo contraste de colores en botones, formularios sin etiquetas).
 
+-  La web no es accesible para usuarios discapacitados como los ciegos o usuarios de baja vision, una opcion seria implementar atributos descriptivos de la web.
 
+-  La navegacion por la web podria resultar ser molesta o compleja para algunos usuarios con movilidad reducida, una opcion seria redistribuir algunas opciones como donde colocar el carrito de compra.
 
 
   
