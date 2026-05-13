@@ -43,6 +43,19 @@ Por ultimo esta el elevado numero de peticiones HTTP externas, las cookies y ser
 
 ### 1. Transparencia. ¿Es fácil rechazar las cookies no esenciales o utilizan "patrones oscuros" (Dark Patterns) para forzar al usuario a aceptarlas?
 
+<img width="896" height="616" alt="Captura de pantalla 2026-05-06 134936" src="https://github.com/user-attachments/assets/e3b37d7f-2a5f-491b-975c-63f158c71992" />
+
+La web te permite navegar por ella solo usando las cookies imprescindibles, te da la opción de aceptarlas todas incluidas las opcionales, en este caso no hay Dark patterns.
+
+### 2. Datos innecesarios. ¿Pide la web datos personales excesivos en su formulario de contacto o registro?
+
+<img width="747" height="748" alt="Captura de pantalla 2026-05-06 135512" src="https://github.com/user-attachments/assets/3878e4b8-12ca-4fcf-9d20-37c33b93b1a1" />
+
+No hay datos personales excesivos o innecesarios, tal vez la direccion pero puede ser por si deseas pedir algun producto desde tu casa.
+
+
+
+
 
 
   
