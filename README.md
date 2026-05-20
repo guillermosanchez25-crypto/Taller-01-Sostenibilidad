@@ -61,18 +61,13 @@ Para optimizar la web de pisapapeles.es voy a sustituir las imagenes actuales po
 
 WebP:
 
-En este caso es el formato ideal porque reduce el peso de las imagenes respecto a JPG o PNG
+En este caso es el formato ideal porque reduce el peso de las imagenes respecto a JPG o PNG, 
+mantiene buena calidad visual y es compatible con casi todos los navegadores modernos.
 
-Mantiene buena calidad visual
+AVIF:
 
-Es compatible con casi todos los navegadores modernos.
-
-EJEMPLO DE CODIGO:
-
-Antes:        <img src= "producto.jpg">
-
-Ahora:       <img src="producto.webp"
-             alt="Boligrafo azul">
+Puede reducir mas el tamaño de las imagenes que webP, consume menos datos, rinde de manera mas eficiente y reduce la huella de carbono digital.
+Pero tambien tiene sus inconvenientes porque no es compatible con algunos navegadores antiguos
 
 
 
