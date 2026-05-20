@@ -84,6 +84,34 @@ Las técnicas usadas han sido HTML semántico (<picture>, <source>, <img>), AVIF
 <img width="1143" height="429" alt="image" src="https://github.com/user-attachments/assets/1ec8cf53-4eb2-478d-ba24-4e0415d3d166" />
 
 
+### 2. ¿Implementarías Lazy Loading?
+
+Enla pregunta anterior demuestro por que deberia usarse el lazy loading  ya que en la web hay muchas imagenes y es imprescindible usarlo ya que seguramente hay imagenes 
+o recursos que el usuario no va a visualizar, asi que en vez de descargar todo el contenido lo que hacemos es cargar solo el justo y necesario para el usuario.
+
+### 3. ¿Qué librerías o scripts externos eliminarías o aplazarías para mejorar la eficiencia del código y reducir el procesamiento en el dispositivo del cliente?
+
+Eliminaria las herramientas de marketing, los tracker publicitarios, los scripts del comportamiento del usuario y los de las redes sociales porque realizan peticiones constantes, ejecutan procesos en
+segundo plano y consumen memoria incluso cuando el usuario no interactua con ella.
+
+Las mejoras que propongo es cargar analytics una vez aceptas las cookies, eliminar algunos trackers innecesarios y reducir todos los scripts de terceros posibles.
+
+
+Tambien cambiaria los sliders ya que en la mayoria de webs se usan sliders ya hechos y animados que utilizan librerias de javascript grandes, estas animaciones 
+aumentan el renderizado grafico.
+
+Mi propuesta en este caso es sustiruirlo por un CSS dentro del codigo y usar imagenes estaticas cuando el usuario no las vea por pantalla, solo hay slide si el ususario lo ve, no durante todo el rato.
+
+<img width="1646" height="527" alt="image" src="https://github.com/user-attachments/assets/e06a9dad-7538-410f-b59e-bc1de979d6b4" />
+
+
+Los scripts de redes sociales generan un problema  es que aumentan el procesamiento del ordeandor ya que decsargan  codigo externo.
+
+Lo que propongo es sustituir widgets por simples enlaces hacia la pagina web de la red social.
+
+<img width="1908" height="726" alt="image" src="https://github.com/user-attachments/assets/02726225-1bfa-4638-a09f-3798733654dd" />
+
+
 
 
 
