@@ -64,6 +64,14 @@ WebP:
 En este caso es el formato ideal porque reduce el peso de las imagenes respecto a JPG o PNG, 
 mantiene buena calidad visual y es compatible con casi todos los navegadores modernos.
 
+<img width="1919" height="984" alt="image" src="https://github.com/user-attachments/assets/2f859759-d707-4229-b0e1-f60dcf7c22c7" />
+
+En esta imagen vemos el codigo de una imagen sin refactorizar, lo que tendriamos que hacer es añadir lazy loading y decoding = asinc para mejorar el rendimiento y usando webP como herramienta tecnica como
+(<picture>, <source>, <img>). El codigo quedaria asi:
+
+<img width="1131" height="434" alt="image" src="https://github.com/user-attachments/assets/c1d783a5-6e6a-4a68-94b4-ab86887b1d54" />
+
+
 AVIF:
 
 Puede reducir mas el tamaño de las imagenes que webP, consume menos datos, rinde de manera mas eficiente y reduce la huella de carbono digital.
