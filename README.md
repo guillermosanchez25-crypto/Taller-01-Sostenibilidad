@@ -113,7 +113,7 @@ Lo que propongo es sustituir widgets por simples enlaces hacia la pagina web de 
 
 
 
-## 4. Si optimizamos la web y la carga mucho más rápido, podríamos atraer a muchos más usuarios diarios. ¿Cómo evitarías que este éxito anule el ahorro energético conseguido?
+### 4. Si optimizamos la web y la carga mucho más rápido, podríamos atraer a muchos más usuarios diarios. ¿Cómo evitarías que este éxito anule el ahorro energético conseguido?
 
 La web deberia revisarse de forma periodica para evitar que se vuelvan a añadir scripts innecesarios, imagenes pesadas, plugins redundantes o funciones que aumnetan el consumo.
 
