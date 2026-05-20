@@ -77,6 +77,11 @@ AVIF:
 Puede reducir mas el tamaño de las imagenes que webP, consume menos datos, rinde de manera mas eficiente y reduce la huella de carbono digital.
 Pero tambien tiene sus inconvenientes porque no es compatible con algunos navegadores antiguos
 
+Con AVIF se suelen comprimir mas y mejor las imagenesm que con WebP envolviendo la etiqueta original en un <picture> con un <source> que prioriza image/avif
+
+Las técnicas usadas han sido HTML semántico (<picture>, <source>, <img>), AVIF como formato moderno de alta compresión, fallback progresivo para compatibilidad, y optimizaciones de carga como loading="lazy" y decoding="async" para mejorar rendimiento sin depender de librerías externas ni herramientas automáticas.
+
+<img width="1143" height="429" alt="image" src="https://github.com/user-attachments/assets/1ec8cf53-4eb2-478d-ba24-4e0415d3d166" />
 
 
 
