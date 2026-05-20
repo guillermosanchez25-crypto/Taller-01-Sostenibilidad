@@ -105,12 +105,22 @@ Mi propuesta en este caso es sustiruirlo por un CSS dentro del codigo y usar ima
 <img width="1646" height="527" alt="image" src="https://github.com/user-attachments/assets/e06a9dad-7538-410f-b59e-bc1de979d6b4" />
 
 
-Los scripts de redes sociales generan un problema  es que aumentan el procesamiento del ordeandor ya que decsargan  codigo externo.
+Los scripts de redes sociales generan un problema  es que aumentan el procesamiento del ordeandor ya que descargan codigo externo.
 
 Lo que propongo es sustituir widgets por simples enlaces hacia la pagina web de la red social.
 
 <img width="1908" height="726" alt="image" src="https://github.com/user-attachments/assets/02726225-1bfa-4638-a09f-3798733654dd" />
 
+
+
+4. Si optimizamos la web y la carga mucho más rápido, podríamos atraer a muchos más usuarios diarios. ¿Cómo evitarías que este éxito anule el ahorro energético conseguido?
+
+La web deberia revisarse de forma periodica para evitar que se vuelvan a añadir scripts innecesarios, imagenes pesadas, plugins redundantes o funciones que aumnetan el consumo.
+
+Tambien podemos implementar un caché  para evitar que los recursos se descarguen una y otra vez
+
+Y aunque las visitaz crezcan el objetivo es que cada usuario consumo pocos datos, necesite poco procesamiento y genere pocas emisiones digitales y de esta forma aunque la web crezca,
+el aumento no implica un impacto ambiental
 
 
 
