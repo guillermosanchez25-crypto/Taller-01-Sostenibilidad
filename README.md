@@ -54,7 +54,20 @@ La web te permite navegar por ella solo usando las cookies imprescindibles, te d
 No hay datos personales excesivos o innecesarios, tal vez la direccion pero puede ser por si deseas pedir algun producto desde tu casa.
 
 ## Fase 4: Propuesta de Refactorización (Green Coding)
-### 
+
+### 1. ¿Qué formatos usarías para sustituir las imágenes actuales (ej. WebP, AVIF)?
+
+Para optimizar la web de pisapapeles.es voy a sustituir las imagenes actuales por formatos modernos como WebP y AVIF que permiten reducir mucho el tamaño de los archivos sin perder calidad visual.
+
+WebP:
+
+EN este caso es el formato ideal porque reduce el peso de las imagenes respecto a JPG o PNG
+
+Mantiene buena calidad visual
+
+Es compatible con casi todos los navegadores modernos.
+
+
 
 
 
