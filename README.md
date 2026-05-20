@@ -53,6 +53,9 @@ La web te permite navegar por ella solo usando las cookies imprescindibles, te d
 
 No hay datos personales excesivos o innecesarios, tal vez la direccion pero puede ser por si deseas pedir algun producto desde tu casa.
 
+## Fase 4: Propuesta de Refactorización (Green Coding)
+### 
+
 
 
 
