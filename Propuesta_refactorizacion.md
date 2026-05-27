@@ -44,15 +44,19 @@ y eliminación de código duplicado entre los tres botones.
 
 # Implementar Lazy Loading
 
-// Original: 35 elementos registrados uno a uno, a mano
-var cosa = jsf6a16d4cdb188b(document.getElementById('6a16d4cdb0ce4'), observer);
-var cosa = jsf6a16d4cdb188b(document.getElementById('6a16d4cdb0d60'), observer);
-var cosa = jsf6a16d4cdb188b(document.getElementById('6a16d4cdb0dc8'), observer);
-// ... 32 líneas más exactamente iguales cambiando solo el ID
-// Problemas:
-// - IDs crípticos sin significado semántico
-// - Si añades una imagen, tienes que acordarte de añadirla aquí también
-// - El observer y el callback están duplicados en el scope global
+<!-- Antes -->
+<img data-src="https://portadas.sinlib.es/0/256/70/9788414065976.jpg"
+     src="https://www.pisapapeles.es/themes/peperit/html_files/images/loading.gif"
+     alt="Cumbres Borrascosas" height="256">
+
+<!-- Después: el navegador gestiona el lazy loading de forma nativa -->
+<!-- Soporte: todos los navegadores modernos (>96% global) -->
+<img src="https://portadas.sinlib.es/0/256/70/9788414065976.jpg"
+     alt="Cumbres Borrascosas"
+     height="256" width="180"
+     loading="lazy">
+
+     La recomendación práctica es usar la Opción A (loading="lazy") para imágenes estáticas del HTML inicial, y reservar la Opción B (el observer) solo para las imágenes que llegan vía AJAX, que es donde el atributo nativo no puede actuar.
 
 
 
