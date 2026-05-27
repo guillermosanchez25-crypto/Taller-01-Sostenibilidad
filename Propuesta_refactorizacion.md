@@ -17,6 +17,7 @@ y eliminación de código duplicado entre los tres botones.
 
 
 # Refactorizacion del footer
+
 <div class="contenedor_subvencion_superior">
   <div class="container">
     <div class="row">
