@@ -59,6 +59,17 @@ y eliminación de código duplicado entre los tres botones.
   *   La recomendación práctica es usar la Opción A (loading="lazy") para imágenes estáticas del HTML inicial, 
      y reservar la Opción B (el observer) solo para las imágenes que llegan vía AJAX, que es donde el atributo nativo no puede actuar.
 
+# Mejoras clave realizadas:
+Eliminación de Redundancia: El CSS del preloader estaba duplicado. Ahora es una única sección limpia.
+
+Mantenibilidad: Se sustituyó el "Spaghetti Code" de las cookies por un objeto cookieManager.
+
+Rendimiento: Se optimizó el orden de carga de los scripts y se eliminaron múltiples llamadas a document.addEventListener('WSLE', ...) sustituyéndolas por una estructura lógica única.
+
+Accesibilidad: Se añadieron etiquetas aria-label y se mejoró la estructura de encabezados.
+
+SEO: Se unificaron los metadatos de OpenGraph (Facebook) y Twitter.
+
 
 
 
