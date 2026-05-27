@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería Pisapapeles | Libros y Juegos en Camas, Sevilla</title>
+    
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    
+    <meta name="description" content="Librería y papelería en Camas (Sevilla) desde 1999. Gran variedad de libros y juegos.">
+    <meta name="keywords" content="libreria camas, papeleria camas, sevilla, libros, juegos">
+    <link rel="canonical" href="https://www.pisapapeles.es/">
+    
+    <meta property="og:title" content="Librería Pisapapeles">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.pisapapeles.es/">
+    <meta property="og:image" content="https://www.pisapapeles.es/upload/img/logotipos/1752233788__logo_facebook.png">
+
+    <style>
+        :root { --primary-dark: #1a1a1a; --font-main: 'Poppins', sans-serif; }
+        * { box-sizing: border-box; font-family: var(--font-main); }
+        body { margin: 0; background: #000; color: #fff; }
+        a { color: #e0e0e0; text-decoration: none; }
+
+        /* Loader Optimizado */
+        .preloader {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: #fff; z-index: 10000; display: flex; 
+            justify-content: center; align-items: center;
+        }
+        .lds-grid { display: inline-block; position: relative; width: 80px; height: 80px; }
+        .lds-grid div {
+            position: absolute; width: 16px; height: 16px; border-radius: 50%;
+            background: var(--primary-dark); animation: lds-grid 1.2s linear infinite;
+        }
+        /* Definición de posiciones de la rejilla simplificada en CSS real */
+        @keyframes lds-grid { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    </style>
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Librería Pisapapeles",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Avda. Clara Campoamor nº11",
+            "addressLocality": "Camas",
+            "addressRegion": "Sevilla",
+            "postalCode": "41900",
+            "addressCountry": "ES"
+        },
+        "telephone": "954390117",
+        "url": "https://www.pisapapeles.es/"
+    }
+    </script>
+</head>
+
+  <script>
+document.addEventListener('DOMContentLoaded', () => {
+    const cookieManager = {
+        state: {
+            google: true,
+            ads: true,
+            analytics: true,
+            tagmanager: true,
+            recaptcha: true
+        },
+        
+        init() {
+            this.bindEvents();
+        },
+
+        updateConsent(allAccepted = false) {
+            const data = { _COOKIES_ACCEPTED: true };
+            // Si allAccepted es true, ponemos todo a true, si no, leemos el estado actual
+            Object.keys(this.state).forEach(key => {
+                data[`_COOKIES_ACCEPTED_${key.toUpperCase()}`] = allAccepted || this.state[key];
+            });
+
+            // Llamada asíncrona al servidor (p_ws0lrppg es tu función externa)
+            if(typeof p_ws0lrppg === 'function') {
+                p_ws0lrppg('Sesion', 'set', data, '').then(() => {
+                    document.querySelector('.fondo-espacio-cookies').style.display = 'none';
+                });
+            }
+        },
+
+        bindEvents() {
+            // Delegación de eventos para los botones
+            document.querySelector('.aceptarGuardar')?.addEventListener('click', () => this.updateConsent(true));
+            
+            // Toggle de "No imprescindibles" afecta a todos los hijos
+            const masterCheck = document.getElementById('check_tipo_cookie_no_imprescindible');
+            const subChecks = document.querySelectorAll('.tipo-cookie-check:not(#check_tipo_cookie_no_imprescindible)');
+
+            masterCheck?.addEventListener('change', (e) => {
+                subChecks.forEach(cb => {
+                    cb.checked = e.target.checked;
+                    this.state[cb.id.replace('check_tipo_cookie_', '')] = e.target.checked;
+                });
+            });
+        }
+    };
+
+    cookieManager.init();
+});
+</script>
+
+  <body>
+    <div class="preloader" id="preloader">
+        <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-logo">
+                    <a href="/" title="Librería Pisapapeles">
+                        <img src="logo.png" alt="Librería Pisapapeles" class="img-responsive">
+                    </a>
+                </div>
+
+                <div class="col-search">
+                    <form action="/buscar" method="POST" class="search-form">
+                        <input type="text" name="txt_busqueda" placeholder="Autor, Título, Editorial..." required>
+                        <button type="submit" aria-label="Buscar">🔍</button>
+                    </form>
+                </div>
+
+                <nav class="user-nav">
+                    <a href="/acceso">Iniciar Sesión</a>
+                    <a href="/registro" class="btn-register">Registrarse</a>
+                    <div class="cart-summary">
+                        <span class="cart-icon">🛒</span>
+                        <button onclick="confirmEmptyCart()">Vaciar Cesta</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        // Quitar preloader al cargar
+        window.addEventListener('load', () => {
+            document.getElementById('preloader').style.opacity = '0';
+            setTimeout(() => document.getElementById('preloader').remove(), 500);
+        });
+
+        function confirmEmptyCart() {
+            if (confirm('¿Desea vaciar la cesta por completo?')) {
+                // emtpyCart() es tu función de librería
+                emtpyCart('*');
+                location.reload();
+            }
+        }
+    </script>
+</body>
+</html>
+
+
