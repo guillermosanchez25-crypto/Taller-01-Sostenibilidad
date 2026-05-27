@@ -1,0 +1,16 @@
+# Refactorizacion de las cookies
+
+<div class="fondo-espacio-cookies" style="display:none;" data-nosnippet>
+  <div class="espacio-cookies">
+    <div class="espacio-cookies-scroll">
+
+      <div class="informacion-general-cookies">
+        <p>Este sitio web utiliza cookies para mejorar su experiencia. Las cookies
+        necesarias se almacenan en su navegador por ser esenciales para el
+        funcionamiento básico. También usamos cookies de terceros para analizar
+        el uso del sitio, que se almacenarán solo con su consentimiento. Puede
+        optar por no recibirlas, aunque esto puede afectar su navegación.</p>
+      </div>
+
+Los cambios principales respecto al original son: HTML más limpio sin IDs crípticos, JS sin jQuery (nativo), lógica de selección centralizada en getCookieSelections(), 
+y eliminación de código duplicado entre los tres botones.
