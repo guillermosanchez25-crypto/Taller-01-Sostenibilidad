@@ -36,8 +36,25 @@ y eliminación de código duplicado entre los tres botones.
                  alt="Plan de Recuperación, Transformación y Resiliencia">
           </figure>
         </div>
-
       </div>
     </div>
   </div>
 </div>
+
+
+# Implementar Lazy Loading
+
+// Original: 35 elementos registrados uno a uno, a mano
+var cosa = jsf6a16d4cdb188b(document.getElementById('6a16d4cdb0ce4'), observer);
+var cosa = jsf6a16d4cdb188b(document.getElementById('6a16d4cdb0d60'), observer);
+var cosa = jsf6a16d4cdb188b(document.getElementById('6a16d4cdb0dc8'), observer);
+// ... 32 líneas más exactamente iguales cambiando solo el ID
+// Problemas:
+// - IDs crípticos sin significado semántico
+// - Si añades una imagen, tienes que acordarte de añadirla aquí también
+// - El observer y el callback están duplicados en el scope global
+
+
+
+
+
