@@ -56,7 +56,8 @@ y eliminación de código duplicado entre los tres botones.
      height="256" width="180"
      loading="lazy">
 
-     La recomendación práctica es usar la Opción A (loading="lazy") para imágenes estáticas del HTML inicial, y reservar la Opción B (el observer) solo para las imágenes que llegan vía AJAX, que es donde el atributo nativo no puede actuar.
+     La recomendación práctica es usar la Opción A (loading="lazy") para imágenes estáticas del HTML inicial, 
+     y reservar la Opción B (el observer) solo para las imágenes que llegan vía AJAX, que es donde el atributo nativo no puede actuar.
 
 
 
